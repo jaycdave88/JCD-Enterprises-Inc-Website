@@ -97,7 +97,7 @@ blockquote.blockquote-reverse footer:after, blockquote.blockquote-reverse small:
 }
 
 .silver {
-  background-color: #C0C0C0
+  background-color: #F2F2F2
 }
 
 .ghostwhite {
@@ -706,7 +706,8 @@ a.thumbnail.active {
   background: none repeat scroll 0% 0% #212121;
   padding: 30px 20px 10px;
   color: #adadad;
-  line-height: 28px
+  line-height: 28px;
+
 }
 
 .social-links {
@@ -766,7 +767,8 @@ a.thumbnail.active {
 
 #contact .text-center p, #contact .text-center address {
   font-size: 14px;
-  line-height: 25px
+  line-height: 25px;
+  color:#878787;
 }
 
 /*	Scroll to Top

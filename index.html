@@ -29,7 +29,7 @@
         <div class="container-fluid">
 
           <!-- Navigation -->
-          <div class="navbar-wrapper">
+          <div class="navbar-wrapper" style="z-index:10;">
             <div class="navbar navbar-default navbar-fixed-top " role="navigation">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -39,21 +39,138 @@
                 </button>
               </div>
               <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbarfile:///C:/Users/jdave/Desktop/PERSONAL/JCD%20Enterprises%20Inc/JCDEINC%20Website/temp1/Images/background_image_snow.jpg-right">
+                <ul class="nav navbar-nav navbar-right">
                   <li><a href="#top-section">Home</a></li>
-                  <li><a href="#features">Features</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
     </section>
+
+    <!-- Top Section -->
     <div id="top_section">
         <div class="bg_image">
-            <img src="Images/background_image_snow.jpg" alt="Mountain View">
+          <img src="Images/background_image_snow.jpg" alt="Mountain View">
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
         </div>
         <div id="txt_logo" id="form-container"><p>JCD Enterprises Inc.</p></div>
     </div>
+
+    <!-- Blockquote -->
+    <section id="about" class="silver">
+      <div class="container-fluid">
+        <h1 class="text-center">About</h1>
+
+        <blockquote>
+          <p>JCD Enterprises, Inc. was created out of a necessity. A necessity to bring exceptional customer service to the freelance industry – no more waiting for your developers, that are over seas to answer or fix a problem!</p> 
+
+          <p>JCD Enterprises, Inc. focuses on Web and Mobile Development, with experience on mobile applications ranging from consumer to enterprise level as well as full-stack web development. Our objective is to bring outdated companies sites and individual who are looking to brand themselves – into a their own, by offering individualized consulting to guarantee our clients an outstanding service.</p>
+          <footer>Jay Davé<cite title="date">, President & CEO.</cite></footer>
+        </blockquote>
+        <!-- <blockquote class="blockquote-reverse">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa</p>
+          <footer>Jemand berühmtes in <cite title="Quellentitel">Quellentitel</cite></footer>
+        </blockquote> -->
+      </div>
+    </section>
+
+      <div class="container-fluid" id="news">
+        <h2>News</h2>
+        <div class="tabs">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab-1" data-toggle="tab">Projects</a></li>
+           <!--  <li class=""><a href="#tab-2" data-toggle="tab">Tab #2</a></li>
+            <li class=""><a href="#tab-3" data-toggle="tab">Tab #3</a></li> -->
+          </ul>
+          <!-- Tab content-->
+          <div class="tab-content">
+            <div class="tab-pane fade active in" id="tab-1">
+              <p>Currently our development team is working on projects and also looking to take on the next challenge! </p>
+            </div>
+            <!-- <div class="tab-pane fade" id="tab-2">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet.
+                <br>In facilisis dui eget arcu consectetur molestie. Sed eros urna placerat vitae commodo at, rutrum eget ligula. In eget velit in elit tincidunt dictum.</p>
+            </div>
+            <div class="tab-pane fade" id="tab-3">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+              <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+ 
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section" data-type="parallax" style="background-color:#e4e4e4; repeat-y fixed center top / cover;width:100%; min-height:200px; height:auto; position:relative">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 animate" data-animation='fadeInLeft' data-animation-delay='100'>
+            <div class="text-center" data-toggle="tooltip" title="Address">
+              <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
+              <address>
+                <strong>JCD Enterprises, Inc.</strong><br>
+                Chicago,60601     
+              </address>
+            </div>
+          </div>
+          <div class="col-md-3 animate" data-animation='fadeInUp' data-animation-delay='100'>
+            <div class="text-center" data-toggle="tooltip" title="Telefonnummer">
+              <span class="contact-icon"><i class="fa fa-phone"></i></span>
+              <p><abbr data-toggle="tooltip" title="Telefonnummer">Tel.:</abbr> (224)366-0667</p>
+            </div>
+          </div>
+          <div class="col-md-3 animate" data-animation='fadeInUp' data-animation-delay='100'>
+            <div class="text-center" data-toggle="tooltip" title="Live Support">
+              <span class="contact-icon"><i class="fa fa-life-ring"></i></span>
+              <p>Skype ID: jcd.enterprises.inc</p>
+            </div>
+          </div>
+          <div class="col-md-3" data-animation='fadeInRight' data-animation-delay='100'>
+            <div class="text-center" data-toggle="tooltip" title="E-mail">
+              <span class="contact-icon"><i class="fa fa-envelope-o"></i></span>
+              <p><a href="mailto:Jay@jcdenterprisesinc.com?subject=Interested in connecting">President & CEO</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+     <section id="footer" class="footer-section">
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="social-links">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p class="text-right">Designed by: <a target="_blank" href="http://www.jaycdave.com" data-toggle="tooltip" title="Visit my other site!">Jay C. Davé</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Top Link -->   
+    <a href="#top" id="top-link"><i class="fa fa-angle-double-up"></i></a>
+
    <!-- Have all code for html body above this line. -->
     <script src="JS/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
