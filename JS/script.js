@@ -16,6 +16,7 @@ $(function() {
     var img = $("#cloud_2"),
         width = img.get(0).width,
         screenWidth = $(window).width(),
+
         duration = 25000;
 
     function animatePlane() {
