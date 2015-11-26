@@ -11,23 +11,34 @@ body{
   background-color: black;
 }
  
-.bg_image > img{
+.img-container{
+    position: relative;
+}
+
+.img-container .bottom{
     width:100%;
     height:250px;
 }
 
+.img-container .top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 
 /*cloud animation*/
-.clouds_one {
-  background:url("Images/cloud_1.png");
+/*.clouds_one {
+  background:url("Images/cloud_3.png");
   position:absolute;
   left:0;
   top:0;
   height:50%;
-  width:100%;
-  -webkit-animation:cloud_one 50s linear infinite;
-  -moz-animation:cloud_one 50s linear infinite;
-  -o-animation:cloud_one 50s linear infinite;
+  width:97%;
+  -webkit-animation:cloud_one 75s linear infinite;
+  -moz-animation:cloud_one 75s linear infinite;
+  -o-animation:cloud_one 75s linear infinite;
   -webkit-transform:translate3d(0,0,0);
   -moz-transform:translate3d(0,0,0);
   -o-transform:translate3d(0,0,0);
@@ -39,45 +50,53 @@ body{
   left:0;
   top:0;
   height:50%;
-  width:100%;
-  -webkit-animation:cloud_two 75s linear infinite;
-  -moz-animation:cloud_two 75s linear infinite;
-  -o-animation:cloud_two 75s linear infinite;
+  width:90%;
+  -webkit-animation:cloud_two 100s linear infinite;
+  -moz-animation:cloud_two 100s linear infinite;
+  -o-animation:cloud_two 100s linear infinite;
   -webkit-transform:translate3d(0,0,0);
   -moz-transform:translate3d(0,0,0);
   -o-transform:translate3d(0,0,0);
 }
 
 .clouds_three {
-  background:url("Images/cloud_3.png");
+  background:url("Images/cloud_1.png");
   position:absolute;
   background-color: green
   left:0;
   top:0;
   height:25%;
   width:100%;
-  -webkit-animation:cloud_three 100s linear infinite;
-  -moz-animation:cloud_three 100s linear infinite;
-  -o-animation:cloud_three 100s linear infinite;
+  -webkit-animation:cloud_three 75s linear infinite;
+  -moz-animation:cloud_three 75s linear infinite;
+  -o-animation:cloud_three 75s linear infinite;
   -webkit-transform:translate3d(0,0,0);
   -moz-transform:translate3d(0,0,0);
   -o-transform:translate3d(0,0,0);
 
-}
+}*/
 
-@-webkit-keyframes cloud_one {
+/*@-webkit-keyframes cloud_one {
   0% {
-    left:0
+    left:0;
+  }
+
+  10%{
+    left: -5%;
   }
 
   100% {
-    left:-200%
+    left:-100%;
   }
 }
 
 @-webkit-keyframes cloud_two {
   0% {
     left:0
+  }
+
+   10%{
+    left: -5%;
   }
 
   100% {
@@ -90,14 +109,22 @@ body{
     left:0
   }
 
+   10%{
+    left: -5%;
+  }
+
   100% {
-    left:-200%
+    left:-300%
   }
 }
 
 @-moz-keyframes cloud_one {
   0% {
     left:0
+  }
+
+   10%{
+    left: -50%;
   }
 
   100% {
@@ -110,6 +137,10 @@ body{
     left:0
   }
 
+   10%{
+    left: -50%;
+  }
+
   100% {
     left:-200%
   }
@@ -120,7 +151,11 @@ body{
     left:0
   }
 
+   10%{
+    left: -50%;
+  }
+
   100% {
     left:-200%
   }
-}
+}*/
